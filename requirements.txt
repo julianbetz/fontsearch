@@ -1,0 +1,5 @@
+brotlipy==0.7.0
+cffi==1.14.6
+click==8.0.1
+fonttools==4.26.2
+pycparser==2.20
