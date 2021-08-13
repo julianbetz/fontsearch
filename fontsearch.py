@@ -174,10 +174,10 @@ def main(character: str, *, fine: bool, separator: str, null: bool) -> None:
 
     Supported font formats are TrueType (TTF/TTC), OpenType (OTF), and Web
     Open Font Format 2 (WOFF2).  The Type 1 (T1) font format is partially
-    supported: Only the support of certain characters in a font can be
+    supported: Only the support of a limited set of characters can be
     detected, but not the lack of support of any character.  Printer Font
     ASCII (PFA), Printer Font Binary (PFB), X11 bitmap (PCF), and Ghostscript
-    Font (GSF) files are detected, but not analyzed.\f
+    Font (GSF) files are found, but not analyzed for support.\f
 
     :param character: The character to search for.
 
